@@ -1,0 +1,39 @@
+.about-section {
+  padding: 3rem 1rem;
+}
+
+.about-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  align-items: center;
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about-text p {
+  margin-bottom: 1rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+.about-btn {
+  background: #f4b400;
+  border: none;
+  padding: 0.7rem 1.3rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.about-btn:hover {
+  background: #ffca28;
+}
+
+.about-image img {
+  width: 100%;
+  border-radius: 12px;
+}
