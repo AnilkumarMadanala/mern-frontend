@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/api': 'https://mern-frontend-psi-sandy.vercel.app'
+      '/api': 'https://mern-backend-9bjv.onrender.com'
     }
   }
 });
