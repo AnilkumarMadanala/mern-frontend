@@ -13,11 +13,11 @@ function AdminLoginPage() {
     e.preventDefault();
     setError("");
 
-    try {
-      const res = await axios.post("http://localhost:5000/api/admin/login", {
-        username,
-        password,
-      });
+      try {
+      const res = await axios.post(
+  "https://mern-backend-9bjv.onrender.com/api/admin/login",
+  { username, password }
+);
 
       // Save token in localStorage
       localStorage.setItem("adminToken", res.data.token);
